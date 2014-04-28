@@ -5,19 +5,21 @@ An endpoint handler for the Plupload uploader.
 
 External dependencies
 ---------------------
-- Symfony\Component\HttpFoundation
-- Symfony\Component\Filesystem
+- `Symfony\Component\HttpFoundation`
+- `Symfony\Component\Filesystem`
 
 Install
 -------
+```
 composer require flow/plupload-endpoint:0.1.x
+```
 
 Usage
 -----
 
 ### Framework agnostic request/response
 
-```
+```php
 use Flow\PluploadEndpoint\JsonResponseHandler;
 use Flow\PluploadEndpoint\Pluploader;
 use Symfony\Component\Filesystem\Filesystem;
@@ -37,7 +39,7 @@ $response->send(); // Sends JSON to browser
 ```
 
 ### Laravel integration
-```
+```php
 class Uploads extends Controller
 {
 	public function upload()
