@@ -44,11 +44,11 @@ class Uploads extends Controller
 {
 	public function upload()
 	{
-		$pluploader = new Pluploader(
-			App::make('request'),
-			App::make('files'),
-			'./uploads'
-		);
+        $pluploader = new Pluploader(
+            App::make('request'),
+            new \Symfony\Component\Filesystem\Filesystem(),
+            '../app/storage/uploads'
+        );
 
 		$handler = new JsonResponseHandler($pluploader);
 
