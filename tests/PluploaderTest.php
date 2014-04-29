@@ -7,7 +7,7 @@ use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\HttpFoundation\Request;
 
-require "../vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 
 class PluploaderTest extends \PHPUnit_Framework_TestCase
