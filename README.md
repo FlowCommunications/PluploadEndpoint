@@ -1,4 +1,4 @@
-Plupload Endpoint
+Plupload Endpoint [![Build Status](https://travis-ci.org/FlowCommunications/PluploadEndpoint.svg?branch=master)](https://travis-ci.org/FlowCommunications/PluploadEndpoint)
 =================
 
 An endpoint handler for the Plupload uploader.
