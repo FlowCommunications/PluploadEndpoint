@@ -1,20 +1,21 @@
 {
-    "name": "flow/plupload-endpoint",
-    "description": "Handles Plupload uploads",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Stephen Frank",
-            "email": "stephen@flowsa.com"
-        }
-    ],
-    "autoload": {
-      "psr-4": {
-        "Flow\\PluploadEndpoint\\": "src/"
-      }
-    },
-    "require": {
-        "symfony/http-foundation": "2.4.x",
-        "symfony/filesystem": "2.4.x"
+  "name": "flow/plupload-endpoint",
+  "description": "Handles Plupload uploads",
+  "keywords": ["plupload-endpoint", "plupload", "upload"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stephen Frank",
+      "email": "stephen@flowsa.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Flow\\PluploadEndpoint\\": "src/"
+    }
+  },
+  "require": {
+    "symfony/http-foundation": "2.4.x",
+    "symfony/filesystem": "2.4.x"
+  }
 }
